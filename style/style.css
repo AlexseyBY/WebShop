@@ -335,5 +335,42 @@ body {
     width: 165px;
     margin-top: 40px;
     border: none;
-
+    color: #FFFFFF;;
+}
+.button-arrow:after {
+    content: url(../img/arrow.png);
+    padding-left: 20px;
+}
+.form-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+.headingperks {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px; 
+    color: #000000;
+    margin-bottom: 30px;
+}
+.heading-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px; 
+    color: #000000;
+    margin-bottom: 30px;
+}
+.ul-offer {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px; 
+    color: #000000;
+    list-style: none;
+}
+.li-offer {
+    margin-bottom: 15px;
+}
+.li-style:before {
+content: url(../img/check.png);
+margin-right: 20px;
 }
