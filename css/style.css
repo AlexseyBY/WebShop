@@ -21,7 +21,7 @@ body {
 .center {
     text-align: center;
 }
-.top-promopink {
+.page-title {
     font-size: 24px;
     line-height: 29px;
     color: #F16D7F;
@@ -235,8 +235,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 100px;
-    padding-bottom: 155px;
+    /* padding-top: 100px;
+    padding-bottom: 155px; */
 }
 .feedback-wrap {
     height: 448px;
@@ -287,13 +287,81 @@ body {
     padding: 15px 20px;
     border-radius: 0 25px 25px 0;
 }
-/* registration.html */
-.registry {
+.inner-title {
     height: 150px;
     background-color: #F8F3F4;;
     display: flex;
     align-items: center;
 }
+.inner-title-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.breadcrumbs {
+	padding: 20px;
+}
+.breadcrumbs-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.breadcrumbs-item::before {
+  content: '/';
+  margin-right: 10px;
+}
+
+.breadcrumbs-item:first-child::before {
+  display: none;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #636363;
+  transition: 0.2s;
+}
+
+.breadcrumbs-link--current {
+  font-weight: bold;
+  color: #F16D7F;
+}
+
+.breadcrumbs-link[href]:hover {
+  text-decoration: underline;
+  color: #F16D7F;
+}
+.filter-box {
+    display: flex;
+    margin: 50px 0px 60px 0px;
+}
+.filter {
+    width: 360px;
+    margin-left: 15px;
+}
+.filter-title:after{
+  width: 44px;
+  height: 17px;
+  left: 246px;
+  top: 274px;
+  content: url(/img/filter.svg);
+}
+.sort {
+    display: flex;
+    width: 360px;
+    margin-left: 15px;
+}
+.sort-name:after {
+    content: url(/img/arrow-filter.png);
+    margin-right: 20px;
+}
+/* registration.html */
 .login-txt {
     margin:20px 0px;
     font-weight: 300;
@@ -396,4 +464,33 @@ margin-right: 20px;
 }
 .social-item {
     margin-left: 5px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.pagination-btn--current {
+    color: #F16D7F;
+}
+.pagination-btn {
+    background-color: #fff;
+    border: none;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color:#C4C4C4;
+}
+.pagination-btn--next .pagination-btn--prev {
+    color: #000000;
+}
+.pagination-list {
+    list-style: none;
+    display: flex;  
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.pagination-item {
+    margin-right: 15px;
 }
