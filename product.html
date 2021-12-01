@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main Page</title>
+    <title>Product page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <script src="https://kit.fontawesome.com/49522de7b7.js" crossorigin="anonymous"></script>
 </head>
+
 
 <body>
     <header class="header">
@@ -35,53 +36,62 @@
             </nav>
         </div>
     </header>
-
-    <section class="offer">
-        <div class="wrapper offer-wrap">
-            <h1 class="offer-title">THE BRAND <br>
-                <span class="offer-title--small">OF LUXERIOUS <span class="offer-title--pink">FASHION</span></span>
-            </h1>
+    <section class="inner-title">
+        <div class="wrapper inner-title-wrap">
+            <h1 class="page-title">NEW ARRIVALS </h1>
+            <nav class="breadcrumbs">
+                <ul class="breadcrumbs-list">
+                    <li class="breadcrumbs-item">
+                        <a href="index.html" class="breadcrumbs-link">home</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a href="catalog.html" class="breadcrumbs-link">MEN</a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link breadcrumbs-link--current">NEW ARRIVALS </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </section>
+    <section class="slider">
+        <button class="slider-btn slider-btn-left"> <i class="fas fa-angle-left"></i> </button>
 
-    <section class="categories">
-        <div class="wrapper categories-wrap">
-            <!-- Невидимый блок -->
-            <h2 class="hidden">Категории товаров</h2>
-            <div class="categories-item categories-item--women">
-                <p class="categories-sale">30% OFF</p>
-                <p class="categories-name">FOR WOMEN</p>
+        <div class="slider-box">
+            <img class="slider-img" src="/img/productWomensmoll.png" alt="slide">
+        </div>
+
+        <button class="slider-btn slider-btn-right"> <i class="fas fa-angle-right"></i> </button>
+    </section>
+
+    <section class="about">
+        <div class="wrap about-wrap">
+            <div class="about-list">
+                <h2 class="about-title">WOMEN COLLECTION</h2>
+                <p class="about-name">MOSCHINO CHEAP AND CHIC</p>
+                <p class="about-text">Compellingly actualize fully researched processes before proactive outsourcing.
+                    <br> Progressively
+                    syndicate
+                    collaborative architectures before cutting-edge services. Completely <br> visualize parallel core
+                    competencies rather than exceptional portals.
+                </p>
+                <p class="about-price">$561</p>
             </div>
-            <div class="categories-item categories-item--man">
-                <p class="categories-sale">HOT DEAL</p>
-                <p class="categories-name">FOR MEN</p>
+            <div class="sortyng">
+                <span class="sort-name">CHOOSE COLOR</span>
+                <span class="sort-name">CHOOSE SIZE </span>
+                <span class="sort-name">QUANTITY</span>
             </div>
-            <div class="categories-item categories-item--kids">
-                <p class="categories-sale">NEW ARRIVALS</p>
-                <p class="categories-name">FOR KIDS</p>
-            </div>
-            <div class="categories-item categories-item--acc">
-                <p class="categories-sale">LUXIROUS & TRENDY</p>
-                <p class="categories-name">ACCESORIES</p>
+            <div class="button-basket">
+                <a href="#" class="product-link">Add to Cart</a>
             </div>
         </div>
     </section>
     <section class="products">
         <div class="wrapper products-wrap">
-            <h2 class="products-title">Fetured Items</h2>
-            <p class="products-description">Shop for items based on what we featured in this week</p>
             <ul class="products-list">
                 <li class="product">
-                    <img src="img/products1.png" alt="photo" class="products-img">
-                    <div class="products-text">
-                        <h3 class="products-name">ELLERY X M'O CAPSULE</h3>
-                        <p class="products-txt">Known for her sculptural takes on traditional tailoring, Australian
-                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <p class="products-price">$52.00</p>
-                    </div>
-                </li>
-                <li class="product">
-                    <img src="img/products2.png" alt="photo" class="products-img">
+                    <img src="/img/products4.png" alt="photo" class="products-img">
                     <div class="products-text">
                         <h3 class="products-name">ELLERY X M'O CAPSULE</h3>
                         <p class="products-txt">Known for her sculptural takes on traditional tailoring, Australian
@@ -99,24 +109,6 @@
                     </div>
                 </li>
                 <li class="product">
-                    <img src="img/products4.png" alt="photo" class="products-img">
-                    <div class="products-text">
-                        <h3 class="products-name">ELLERY X M'O CAPSULE</h3>
-                        <p class="products-txt">Known for her sculptural takes on traditional tailoring, Australian
-                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <p class="products-price">$52.00</p>
-                    </div>
-                </li>
-                <li class="product">
-                    <img src="img/products5.png" alt="photo" class="products-img">
-                    <div class="products-text">
-                        <h3 class="products-name">ELLERY X M'O CAPSULE</h3>
-                        <p class="products-txt">Known for her sculptural takes on traditional tailoring, Australian
-                            arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
-                        <p class="products-price">$52.00</p>
-                    </div>
-                </li>
-                <li class="product">
                     <img src="img/products6.png" alt="photo" class="products-img">
                     <div class="products-text">
                         <h3 class="products-name">ELLERY X M'O CAPSULE</h3>
@@ -126,45 +118,16 @@
                     </div>
                 </li>
             </ul>
-            <div class="center">
-                <a href="catalog.html" class="product-link">Browse All Product</a>
-            </div>
-        </div>
-    </section>
-    <section class="features">
-        <div class="wrapper features-wrap">
-            <!-- Невидимый блок -->
-            <h2 class="hidden">Преимущества комнапии</h2>
-            <div class="features-content features--car">
-                <div class="features-card"><img src="img/car.svg" alt=""></div>
-                <p class="features-name">Free Delivery</p>
-                <p class="features-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with extensive
-                    models.</p>
-            </div>
-            <div class="features-content features--sale">
-                <div class="features-card"><img src="img/procent.png" alt=""></div>
-                <p class="features-name">Sales & discounts</p>
-                <p class="features-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with extensive
-                    models.</p>
-            </div>
-            <div class="features-content features--crown">
-                <div class="features-card"> <img src="img/king.png" alt=""></div>
-                <p class="features-name">Quality assurance</p>
-                <p class="features-text">Worldwide delivery on all. Authorit tively morph next-generation innov tion
-                    with extensive
-                    models.</p>
-            </div>
         </div>
     </section>
     <section class="feedback">
         <div class="wrapper feedback-wrap">
             <!-- Невидимый блок -->
-            <h2 class="hidden">Обратная связь</h2>
+            <h2 class="hidden"></h2>
             <div class="feedback-content feedback--wooman">
                 <div class="feedbackphoto"><img src="img/wooman-weedback.png" alt="photo"></div>
-                <p class="feedback-text">“Vestibulum quis porttitor dui! <br> Quisque viverra nunc mi, a pulvinar purus
+                <p class="feedback-text">“Vestibulum quis porttitor dui! <br> Quisque viverra nunc mi, a
+                    pulvinar purus
                     <br>
                     condimentum“
                 </p>
@@ -174,10 +137,9 @@
                 <p class="sub-text">FOR OUR NEWLETTER AND PROMOTION</p>
                 <form action="#" class="subscribe">
                     <input class="subscribe-field" name="email" type="email" placeholder="Enter Your Email">
-                    <button class="subscribe-button" type="submit">Subscribe</button>
+                    <button class="subscribe-button" type="button">Subscribe</button>
                 </form>
             </div>
-
         </div>
     </section>
     <footer class="footer">
